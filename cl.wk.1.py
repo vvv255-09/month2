@@ -1,4 +1,6 @@
 # OOП 1: Основы ООП, Создание первых классов, Атрибуты и Методы. git и github,
+import select
+
 
 class Hero:
     #Контруктор класса
@@ -8,20 +10,16 @@ class Hero:
         self.name = name
         self.lvl = lvl
         self.hp = hp
-    
+
     def action(self):
-        return f"{self.name} base action"
+        return f" {self.name} base action"
 
 #обьект/экземпляр на основе класса
-kirirto = Hero("Kirito", 100, 1000)
-asuno = Hero("Asuno", 101, 1001)
-chypalak = Hero("Chypalak", 102, 1002)
+kirirto = Hero("Kirito", 100, 1000, 8000)
+asuno = Hero("Asuno", 101, 1001, 6000)
 
 print(kirirto.action())
 print(asuno.action())
-print(chypalak.action())
-
-
 
 # class Myint:
 #     def __init__(self, value):
