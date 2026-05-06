@@ -2,9 +2,11 @@
 1) git confic --global user.name "vvv255-09"
 2) git config --global user.email "omurshaevvvs@gmail.com"
 
-3)
-4)
+3) git init
+4) git  
 
 5) git status
-6) git .
-7) git commit
+6) git .  | можно указать путь для сохранения конретного файл
+7) git commit "message"
+8) git push origin main
+
