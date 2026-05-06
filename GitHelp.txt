@@ -1,12 +1,15 @@
-команды для регистрации данных
-1) git confic --global user.name "vvv255-09"
-2) git config --global user.email "omurshaevvvs@gmail.com"
+Команды для регистрации ваших данных
+1) git config --global user.name "your_username"
+2) git config --global user.email "your_username@gmai.com"
 
-3) git init
-4) git  
+Команды только для одно проекта
+3) git init        | Инициализация Гита
+4) git remote add origin link_to_your_repository | Добавление репозитория
 
-5) git status
-6) git .  | можно указать путь для сохранения конретного файл
-7) git commit "message"
-8) git push origin main
 
+5) git status      | Статус проекта
+6) git add . или путь к файлу       |
+7) git commit -m "name massage"
+8) git push origin master
+9) git restore . или путь к файлу
+9) git reset . или путь к файлу
