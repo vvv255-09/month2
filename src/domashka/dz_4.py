@@ -37,8 +37,8 @@ class Money:
 
 money1 = Money(100, "USD")
 money2 = Money(5000, "KGS")
-
-print(money1 + money2)
+result = money1 + money2
+print(result)
 print(money1 - money2)
 print(money1 * 3)
 print(money2 / 2)
