@@ -2,3 +2,4 @@ echo ".venv" >> .gitignore
 git add .gitignore
 git commit -m "add gitignore"
 git push origin main
+echo "src" >> .gitignore
