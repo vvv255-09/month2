@@ -28,6 +28,7 @@ def two_sum(nums, target):
     Находит два числа в списке nums, сумма которых равна target.
     Возвращает список из двух индексов [i, j].
     """
+
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
             if nums[i] + nums[j] == target:
@@ -39,6 +40,8 @@ def two_sum(nums, target):
 nums1 = [2, 7, 11, 15]
 target1 = 9
 result1 = two_sum(nums1, target1)
+i, j = result1
 print(f"nums={nums1}, target={target1}")
 print(f"Результат: {result1}")
-print(f"Проверка:  {nums1[result1[0]]} + {nums1[result1[1]]} = {sum([nums1[i] for i in result1])}")
+print(f"Проверка: {nums1[i]} + {nums1[j]} = {nums1[i] + nums1[j]}")
+
